@@ -32,7 +32,7 @@ def get_parser():
                         'insulated heat diffusion process.')
 
     parser.add_argument('-op', '--only_permutations', action='store_true',
-                        help='Only permutations, i.e., do not generate influence matrix for'\
+                        help='Only permutations, i.e., do not generate influence matrix for '\
                              'observed data. Useful for generating permuted network files on'\
                              'multiple machines.')
     parser.add_argument('-q', '--Q', default=115, type=float,
